@@ -9,3 +9,58 @@ header {
     background-color: black;
     color: white;
 }
+
+.logo-header span>img {
+    width: 6rem;
+    object-fit: cover;
+}
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 300px;
+    font-size: 8pt;
+    border: 1px solid blue;
+}
+
+.nav-menu a {
+    color: white;
+}
+
+.nav-menu-options {
+    display: inline-block;
+    font: normal 8pt arial ;
+    position: relative;
+}
+
+.nav-menu-options ol {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    list-style: none;
+    z-index: 1;
+}
+.nav-menu .nav-menu-options ol li > a {
+    color: red;
+    margin: 5px;
+}
+
+/* .nav-menu li > a {
+    color: black;
+    padding: 5px;
+} */
+
+.nav-menu  a {
+    text-decoration: none;
+}
+
+.nav-menu-options:hover ol {
+    display: block;
+}
+
+.nav-menu-options:hover a {
+    padding: 5px;
+}
