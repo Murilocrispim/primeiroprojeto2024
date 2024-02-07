@@ -10,22 +10,32 @@ header {
     color: white;
 }
 
-.logo-header span>img {
+.logo-header span>a img {
     width: 6rem;
     object-fit: cover;
 }
-.nav-menu{
+
+.nav-menu {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     width: 300px;
     font-size: 8pt;
-    border: 1px solid blue;
+    text-decoration: none;
+    
 }
 
-.nav-menu a {
+.nav-menu  a {
     color: white;
+    text-decoration: none;
 }
+
+
+
+/* .nav-menu a {
+    color: white;
+} */
 
 .nav-menu-options {
     display: inline-block;
@@ -43,24 +53,21 @@ header {
     list-style: none;
     z-index: 1;
 }
-.nav-menu .nav-menu-options ol li > a {
-    color: red;
-    margin: 5px;
-}
-
-/* .nav-menu li > a {
-    color: black;
-    padding: 5px;
-} */
-
-.nav-menu  a {
-    text-decoration: none;
-}
 
 .nav-menu-options:hover ol {
     display: block;
 }
-
-.nav-menu-options:hover a {
-    padding: 5px;
+.nav-menu .nav-menu-options  ol > li {
+    text-decoration: none;
+    padding: 3px;
 }
+.nav-menu .nav-menu-options  ol a {
+    color: black;
+}
+
+.nav-menu .nav-menu-options  ol a:hover {
+    color: red;
+}
+
+
+
