@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
     <!-- CSS -->
     <link rel="stylesheet" href="css/rest.css">
     <link rel="stylesheet" href="css/home.css">
@@ -12,31 +14,26 @@
 </head>
 
 <body>
-    <header>
-        <div class="logo-header">
-            <span><a href=""><img src="imagens/log-black-Project.png"></a></span>
+    <header class="cabecarioPrincipal">
+        <div class="logo">
+            <a href=""><img src="imagens/4-removebg-preview.png" alt="logo-site"></a>
+            
         </div>
-        <nav class="nav-menu">
-            <div class="nav-menu-options">
-                <h2 id="menu-inf">Menu</h2>
-                <ol>
-                    <li><a href="#">Entrar</a></li>
-                    <li><a href="#">Área do produtor</a></li>
-                    <li><a href="#">Venda de tickets</a></li>
-                    <li><a href="#">Ajuda</a></li>
-                </ol>
-            </div>
-            <h2><a href="#">Trabalhe Conosco</a> </h2>
-        </nav>
+        <div class="menu-ham">
+            <span class="material-symbols-outlined">
+                <a href="#">menu</a>
+            </span>
+        </div>
+        <p id="eventos"><a href="#">Encontrar eventos</a></p>
     </header>
+    <div class="menuOn">
+        <ul>
+            <li>Entrar</li>
+            <li>Área produtor</li>
+            <li>Ajuda</li>
+        </ul>
 
-    <main>
-        <!-- action="add local do banco de dados PHP " -->
-        <form method="post">
-            <input type="search" name="buscador" id="buscador" placeholder="Pesquisar">
-        </form>
-
-    </main>
+    </div>
 </body>
 
 </html>
