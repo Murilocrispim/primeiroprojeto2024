@@ -20,20 +20,28 @@
             
         </div>
         <div class="menu-ham">
-            <span class="material-symbols-outlined">
-                <a href="#">menu</a>
+            <span id="abrirMenu" class="material-symbols-outlined">
+                menu
             </span>
         </div>
         <p id="eventos"><a href="#">Encontrar eventos</a></p>
     </header>
     <div class="menuOn">
-        <ul>
-            <li>Entrar</li>
-            <li>Área produtor</li>
-            <li>Ajuda</li>
-        </ul>
-
+            <div class="closeMenu">
+                <img src="imagens/close_FILL0_wght400_GRAD0_opsz24.svg" alt="close" id="close" onclick="closeMenu('clicou')">
+            </div>
+            <ul>
+                <li><a href="#">Entrar</a></li>
+                <li><a href="#">Área produtor</a></li>
+                <li><a href="#">Ajuda</a></li>
+            </ul>
     </div>
+    <script>
+        const abrirMenu = document.getElementById('#abrirMenu')
+        abrirMenu = console.log('clicou')
+        const closeMenu = document.getElementById(close);
+
+    </script>
 </body>
 
 </html>
