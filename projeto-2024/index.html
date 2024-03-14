@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/rest.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>Projeto-x</title>
 </head>
 
@@ -17,31 +19,33 @@
     <header class="cabecarioPrincipal">
         <div class="logo">
             <a href=""><img src="imagens/4-removebg-preview.png" alt="logo-site"></a>
-            
         </div>
-        <div class="menu-ham">
-            <span id="abrirMenu" class="material-symbols-outlined">
-                menu
-            </span>
-        </div>
-        <p id="eventos"><a href="#">Encontrar eventos</a></p>
-    </header>
-    <div class="menuOn">
-            <div class="closeMenu">
-                <img src="imagens/close_FILL0_wght400_GRAD0_opsz24.svg" alt="close" id="close" onclick="closeMenu('clicou')">
-            </div>
-            <ul>
+        <nav id="nav">
+            <button id="menuMObile">
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </button>
+            <ul id="menu">
                 <li><a href="#">Entrar</a></li>
                 <li><a href="#">Área produtor</a></li>
                 <li><a href="#">Ajuda</a></li>
             </ul>
+        </nav>
+        <p id="eventos"><a href="#">Encontrar eventos</a></p>
+    </header>
     </div>
-    <script>
-        const abrirMenu = document.getElementById('#abrirMenu')
-        abrirMenu = console.log('clicou')
-        const closeMenu = document.getElementById(close);
-
-    </script>
+    <section>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit hic, nesciunt veniam quasi aperiam
+            perferendis voluptates quas maxime tenetur officiis nostrum necessitatibus adipisci quos, at voluptate
+            labore facilis debitis nihil!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto quisquam ut distinctio ad dolore eligendi
+            consectetur ullam molestiae, officiis et eius magnam reiciendis consequuntur doloribus rem, error possimus
+            debitis. Voluptas!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolorem quaerat, optio id at labore
+            voluptatum ab tempora dolorum est eveniet sunt quae animi sapiente perferendis neque eos nam! Sequi?</p>
+    </section>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
