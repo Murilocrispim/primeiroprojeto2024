@@ -18,7 +18,12 @@
 <body>
     <header class="cabecarioPrincipal">
         <div class="logo">
-            <a href=""><img src="imagens/4-removebg-preview.png" alt="logo-site"></a>
+            <picture>
+                <a href="index.html">
+                    <source media="(max-width: 70px)" srcset="imagens\4-removebg-preview.png">
+                </a>
+                <a href="index.html"><img id="logo-principal" src="imagens/1.jpg" alt="logo-site"></a>
+            </picture>
         </div>
         <nav id="nav">
             <button id="menuMObile">
@@ -34,7 +39,6 @@
         </nav>
         <p id="eventos"><a href="#">Encontrar eventos</a></p>
     </header>
-    </div>
     <section>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit hic, nesciunt veniam quasi aperiam
             perferendis voluptates quas maxime tenetur officiis nostrum necessitatibus adipisci quos, at voluptate

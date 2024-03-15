@@ -1,21 +1,22 @@
 /*  Paleta de cores.
-    #EAF205
-    #F2E205
-    #D4D94
+    #F23545;
+    #F23D5E;
+    #D959AC;
+    #D76AD9;
     #F2F2F2
-    #0D0D0D
+
 
 */
 
 :root{
-    --co1 : #BF656D
+    --co1 : #BF656D;
+    --cor2 : #F23545;
+    --cor3 : #F23D5E;
+    --cor4 : #D959AC;
+    --cor5 : #D76AD9;
+    --cor6 : #F2F2F2;
+    --cor7 : #A7C7FF; 
 }
-
-/* .DCLEX:-Stock-trading-on-blockchain-1-hex { color: #BF656D; }
-.DCLEX:-Stock-trading-on-blockchain-2-hex { color: #B379D9; }
-.DCLEX:-Stock-trading-on-blockchain-3-hex { color: #482973; }
-.DCLEX:-Stock-trading-on-blockchain-4-hex { color: #704BBF; }
-.DCLEX:-Stock-trading-on-blockchain-5-hex { color: #0D0D0D; } */
 
 body, ul {
     font-family: Arial, Helvetica, sans-serif;
@@ -27,6 +28,7 @@ body, ul {
 .cabecarioPrincipal {
     height: 100px;
     width: 100%;
+    position: sticky;
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -44,8 +46,14 @@ body, ul {
 }
 
 .logo {
-    height: auto;
     width: auto;
+}
+
+#logo-principal {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    overflow: auto;
 }
 
 img {
@@ -56,7 +64,6 @@ img {
 #menu {
     display: flex;
     flex-direction: row;
-    gap: 10px;
     list-style: none;
 }
 #menu a {
@@ -65,19 +72,19 @@ img {
 
 
 #menu a:hover {
-    color: #704bbf8e;
+    color: #F23545;
 }
 
 #menuMObile {
     display: none;
-
 }
-
-
-
+#eventos {
+    width: auto;
+}
 #eventos a{
     width: auto;
-    font-size: 1rem;
+    min-width: .5rem;
+    font-size: .8rem;
     font-weight: 700;
     color: #F2F2F2;
     background-color: #704BBF;
