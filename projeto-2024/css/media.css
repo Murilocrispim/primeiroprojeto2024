@@ -1,4 +1,4 @@
-@media (max-width: 570px) and (min-width: 320px) { 
+@media (max-width: 600px) and (min-width: 320px) {
     #menuMObile {
         display: flex;
         font-size: 1rem;
@@ -25,7 +25,8 @@
         visibility: hidden;
         overflow-y: hidden;
     }
-    #menu li  {
+
+    #menu li {
         padding: 1rem 0;
         margin: 0 1rem;
         border-bottom: 1px solid #D959AC;
@@ -36,5 +37,11 @@
         visibility: visible;
         overflow-y: auto;
     }
-    
+
+    #logo-principal {
+        width: 80px;
+        height: 70px;
+        object-fit: contain;
+        overflow: auto;
+    }
 }

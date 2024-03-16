@@ -78,23 +78,36 @@ img {
 #menuMObile {
     display: none;
 }
-#eventos {
-    width: auto;
-}
-#eventos a{
-    width: auto;
-    min-width: .5rem;
-    font-size: .8rem;
-    font-weight: 700;
-    color: #F2F2F2;
-    background-color: #704BBF;
-    border: 2px solid #704BBF;
-    padding: .4rem;
-    border-radius: 25px;
+
+
+
+
+/* Teste das sections */
+
+.evento {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
+.evento h2 {
+    color: #333;
+    font-size: 24px;
+}
 
+.evento p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
 
+.evento a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-
+.evento a:hover {
+    text-decoration: underline;
+}
 
