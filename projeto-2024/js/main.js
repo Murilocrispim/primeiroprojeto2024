@@ -2,16 +2,16 @@
 
 const btnMobile = document.getElementById('menuMObile')
 
-function abirMenu() {
+function abrirMenu() {
     const navMenu = document.getElementById('nav')
     navMenu.classList.toggle('open')
 }
 
-btnMobile.addEventListener('click', abirMenu);
+btnMobile.addEventListener('click', abrirMenu);
 
 
 
-// Função para trocar a logoMobile quando a largura da tela atingir 570px
+// Função para trocar a logoMobile quando a largura da tela atingir 570px/
 function trocarLogo() {
     let logo = document.getElementById('logo-principal');
     if (window.innerWidth <= 600) {
