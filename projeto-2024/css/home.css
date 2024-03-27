@@ -130,3 +130,58 @@ img {
     font-size: 1.3em;
     color: #007bff;
 }
+
+main {
+    text-align: center;
+    margin-top: 30px;
+    padding: 2rem;
+}
+
+ main > p {
+    text-align: justify;
+    text-indent: 1em;
+    font-weight: 500;
+    line-height: 1.5em;
+    font-size: 1.2em;
+    margin: 1rem 0;
+}
+
+
+
+strong {
+    display: inline-block;
+    padding: 10px;
+    color: #007bff;
+    text-shadow: 2px 0 5px #007bffa6;
+    border: .5px solid #007bff;
+    border-radius: 1rem;
+}
+
+/* >Buscas */
+
+#Mbuscas {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid #666; */
+    margin-top: 2rem;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+ .cartaz > .imgHover:hover  {
+    transform: scalez(1.2, 1.5);
+}
+
+#Mbuscas:hover .imgHover:not(:hover)   {
+    filter: blur(3px);
+    transform: scale(.9, .9);
+    transition: .5s;
+}
+
